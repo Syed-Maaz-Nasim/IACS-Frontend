@@ -1,0 +1,33 @@
+.center_utils{
+    height: 80vh;
+    display:flex;
+    justify-content: center; 
+    align-items:center;
+}
+
+.main_heading{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.125);
+}
+
+.Post_center{
+    height: 50vh;
+    display:flex;
+    justify-content: center; 
+    align-items:center;
+}
+
+.mobileHeading{
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .main_heading{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .mobileHeading{
+        font-size: 30px;
+    }
+}
